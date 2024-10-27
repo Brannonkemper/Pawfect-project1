@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs & Cats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Pawfect paws</a></h1>
+        
+    </header>
+
+    <main>
+        <section class="maintext" >
+            <h2>Find your new furry friend</h2>
+            <p>Give a loving home to a nice dog.</p>
+            
+        </section>
+
+        <h2 id = "dogAvailable">Available Breeds</h2>
+        <p id = "breedContainer"></p>
+        <!--Available dogs section-->
+        <section class="featured-pets">
+            
+            <div class="pet-grid">
+                <div class="pet-profile">
+                    <img src="pawfect images\bulldog.jpg" alt="Bulldog"> 
+                    <h3>Buddy</h3>
+                    
+                    <button id ="buddyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <span class="close-btn" id="closePopupBtn">&times;</span>
+                        <div class="pet-profile">
+                            
+                            <h3 id = "name"></h3>
+                            <h3 id = "Breed"></h3>
+                            <h3 id = "Age"></h3>
+                        
+                        <p id ="Paragraph"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pet-profile">
+                    <img src="pawfect images\Golden retriever dog stock image_ Image of nature, field - 10940891.jpg" alt="Golden Retreiver"> 
+                    <h3>Max</h3>
+                    
+                    <button id="maxBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+
+                <div class="pet-profile">
+                    <img src="pawfect images\germanShepherd.jpg" alt="german shepherd"> 
+                    <h3>Bella</h3>
+                    
+                    <button id ="bellaBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+
+                <div class="pet-profile">
+                    <img src="pawfect images\Poodle.jpg" alt="poodle"> 
+                    <h3>Charlie</h3>
+                 
+                    <button id ="charlieBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Cute beagle 🤍 (1).jpg" alt="Beagle"> 
+                    <h3>Daisy</h3>
+                    
+                    <button id = "daisyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\The Ultimate Labrador Retriever Care Guide.jpg" alt="Labrador Retreiver"> 
+                    <h3>Lucy</h3>
+                   
+                    <button id = "lucyBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\dachshund.jpg" alt="Dachshund"> 
+                    <h3>Rocky</h3>
+                   
+                    <button id = "rockyBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\husky.jpg" alt="Siberian Husky"> 
+                    <h3>Molly</h3>
+                    
+                    <button id = "mollyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\14 Facts About Boxer Dogs You Probably Didn't Know.jpg" alt="Boxer"> 
+                    <h3>Bailey</h3>
+                    
+                    <button id="baileyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\shitzu.jpg" alt="Shi htzu"> 
+                    <h3>Lola</h3>
+                    
+                    <button id="lolaBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\15 Facts You Should Know About Cocker Spaniels.jpg" alt="Cocker Spaniel"> 
+                    <h3>Cooper</h3>
+                    
+                    <button id="cooperBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Rottweiler Temperament_ Top Personality and Character Traits.jpg" alt="Rottweiller"> 
+                    <h3>Rex</h3>
+                    
+                    <button id = "rexBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Silky Terrier vs_ Yorkshire Terrier_ What’s the Difference_.jpg" alt="Yorkshire Terrier"> 
+                    <h3>Zoey</h3>
+                    
+                    <button id = "zoeyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Great Dane Dog Breed Information.jpg" alt="Great Dane"> 
+                    <h3>Leo</h3>
+                    
+                    <button id = "leoBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\14 Reasons Why Chihuahuas Are The Worst Dog Breed Ever.jpg" alt="Chihuahua"> 
+                    <h3>Chloe</h3>
+                    
+                    <button id = chloeBtn class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Looking for a New Best Friend_ Try These Medium-Sized Dog Breeds.jpg" alt="Border Collie"> 
+                    <h3>Buster</h3>
+                    
+                    <button id = "busterBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\12 Reasons Why Basset Hounds are Absolutely Incredible Breed.jpg" alt="Basset hound"> 
+                    <h3>Ruby</h3>
+                    
+                    <button id = "rubyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\20 Questions About Australian Shepherds.jpg" alt="Australian Shepherd"> 
+                    <h3>Milo</h3>
+                    
+                    <button id = "miloBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\The French Bulldog! Fun, Intelligent and Playful! Check out this Adorable Breed!.jpg" alt="French Bulldog"> 
+                    <h3>Penny</h3>
+                    
+                    <button id = "pennyBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Puppy-Irish Setter by GitteKoeppel on DeviantArt.jpg" alt="Irish setter"> 
+                    <h3>Finn</h3>
+                    
+                    <button id = "finnBtn" class = "openPopupBtn">View Profile</button>
+                </div>
+                </div>
+            </div>
+
+                <!--Accessories code-->
+               
+                <h1 id = "dogAvailable">Available Accessories</h1>
+                <div class="pet-grid">
+                <div class="pet-profile">
+                    <img src="pawfect images\Multiple Colour Velvet Personalise Dog Collar Leash Set With Bow,browngreywhite,engraved Pet Name Plate Metal Buckle,wedding Puppy Gift - Etsy.jpg" alt="collar"> 
+                    <h3>Collar</h3>
+                    <p> A basic necessity, available in various designs and materials.</p>
+                    <h5 id = "priceId">Price:1500KSH</h5>
+                    <button id = "addCart1">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Recycled Infinity Dog Leash - OLIVE.jpg" alt="leash"> 
+                    <h3>leash</h3>
+                    <p>For safe walks, available in retractable, nylon, or leather.</p>
+                    <h5 id = "priceId">Price:2500KSH</h5>
+                    <button id = "addCart2">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Leash, Collar + Harness Set in Espresso.jpg" alt="Harness"> 
+                    <h3>Harness</h3>
+                    <p> Helps reduce strain on your dog's neck during walks.</p>
+                    <h5 id = "priceId">Price:6500KSH</h5>
+                    <button id = "addCart3">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Dog Bone Pet Tag with Hearts or Paw Prints - Rainbow _ Hearts _ Right.jpg" alt="id tag"> 
+                    <h3>Id tag</h3>
+                    <p>A personalized tag with your contact info for safety.</p>
+                    <h5 id = "priceId">Price:1500KSH</h5>
+                    <button id = "addCart4">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Personalised Rustic Wooden Corner Dog Bed In Multi Coloured Wool Feel Fabric.jpg" alt="Dog bed"> 
+                    <h3>Dog Bed</h3>
+                    <p>A cozy place for your dog to rest.</p>
+                    <h5 id = "priceId">Price:6500KSH</h5>
+                    <button id = "addCart5">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Wooden Dog Kennel With Cushion.jpg" alt="Dog Crate"> 
+                    <h3>Dog Crate</h3>
+                    <p>Useful for training and travel.</p>
+                    <h5 id = "priceId">Price:5500KSH</h5>
+                    <button id = "addCart6">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Beech Wooden Elevated Dog Bowl Stand for Large Dogs with 2 Stainless Steel Bowls_ Two bowls in a set.jpg" alt="Dog Bowl Set"> 
+                    <h3>Dog Bowl set</h3>
+                    <p>For food and water, often made of stainless steel or ceramic.</p>
+                    <h5 id = "priceId">Price:1500KSH</h5>
+                    <button id = "addCart7">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Wild One Slow Feeder Non-skid Silicone Dog Bowl, Black, 22-oz.jpg" alt="Slow feeder bowl"> 
+                    <h3>Slow feeder bowls</h3>
+                    <p>Helps dogs eat at a slower pace to avoid digestive issues.</p>
+                    <h5 id = "priceId">Price:1000KSH</h5>
+                    <button id = "addCart8">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Pets.jpg" alt="Dog Toys"> 
+                    <h3>Dog toys</h3>
+                    <p> Includes plush toys, squeaky toys, and chew toys.</p>
+                    <h5 id = "priceId">Price:1500</h5>
+                    <button id = "addCart9">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Trust Your Dog - Custom Muzzles, Long Lines, and Euro Leashes.jpg" alt="Muzzle"> 
+                    <h3>Muzzle</h3>
+                    <p> A muzzle prevents a dog from biting or chewing objects.</p>
+                    <h5 id = "priceId">Price:1500KSH</h5>
+                    <button id = "addCart10">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\Double Sided Shedding And Dematting Tool Undercoat Rake Pet Comb Effective Removing Knot Hair Deshedding Brush For Dog Cat - Buy Cat Dog Hair Remover Brush,Durable Pet Comb,Peine Cepillo Autolimpieza Para Gatos Masc.jpg" alt="Double Sided Grooming Brush"> 
+                    <h3>Double sided Grooming Brush</h3>
+                    <p>Keeps your dog's coat healthy and reduces shedding.</p>
+                    <h5 id = "priceId">Price:3500KSH</h5>
+                    <button id = "addCart11">ADD TO CART</button>
+                    
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\PupProtector™ Waterproof Throw Blanket - Brown Faux Cowhide.jpg" alt="Dog Blanket"> 
+                    <h3>Dog Blanket</h3>
+                    <p> For extra comfort in beds or crates.</p>
+                    <h5 id = "priceId">Price:2500KSH</h5>
+                    <button id = "addCart12">ADD TO CART</button>
+                </div>
+                <div class="pet-profile">
+                    <img src="pawfect images\download (3).jpg" alt="Dog Kennel"> 
+                    <h3>Dog Kennel</h3>
+                    <p>A kennel provides a secure, enclosed space for dogs to rest, sleep, or stay temporarily.</p>
+                    <h5 id = "priceId">Price:15000KSH</h5>
+                    <button id = "addCart13">ADD TO CART</button>
+                </div>
+                
+                </div>
+            
+        </section>
+        <hr>
+        <div class="container">
+            <h1>Dog Vaccination Schedule & Maintenance Tips</h1>
+            <table class="vaccination-table">
+                <thead>
+                    <tr>
+                        <th>Age</th>
+                        <th>Vaccine</th>
+                        <th>Booster</th>
+                        <th>Maintenance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6-8 Weeks</td>
+                        <td>DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza)</td>
+                        <td>Every 3-4 weeks until 16 weeks</td>
+                        <td>Keep puppies indoors until vaccinated.<br>Provide clean water and nutrition.</td>
+                    </tr>
+                    <tr>
+                        <td>9-12 Weeks</td>
+                        <td>Leptospirosis (Optional)</td>
+                        <td>Yearly</td>
+                        <td>Regular vet check-ups.<br>Maintain clean environment.</td>
+                    </tr>
+                    <tr>
+                        <td>12-16 Weeks</td>
+                        <td>Rabies</td>
+                        <td>Every 1-3 years (as per regulations)</td>
+                        <td>Ensure safe outdoor play areas.<br>Check behavior regularly.</td>
+                    </tr>
+                    <tr>
+                        <td>16-20 Weeks</td>
+                        <td>DHPP (Booster)</td>
+                        <td>Yearly</td>
+                        <td>Monitor for side effects.<br>Continue socializing.</td>
+                    </tr>
+                    <tr>
+                        <td>1 Year</td>
+                        <td>DHPP + Rabies (Booster)</td>
+                        <td>Yearly or every 3 years for Rabies</td>
+                        <td>Routine vet visits.<br>Dental care and grooming.</td>
+                    </tr>
+                    <tr>
+                        <td>Every Year</td>
+                        <td>Bordetella, Influenza</td>
+                        <td>Yearly</td>
+                        <td>Regular exercise.<br>Avoid contact with sick dogs.</td>
+                    </tr>
+                    <tr>
+                        <td>6-12 Months</td>
+                        <td>Heartworm, Flea & Tick Preventatives</td>
+                        <td>Monthly or as per vet advice</td>
+                        <td>Administer preventatives.<br>Check for fleas & ticks.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Comment Section</h2>
+
+        <!-- Comment Form -->
+        <div class="comment-box">
+            <form id="commentForm">
+                <label for="commentText">Leave a comment:</label><br><br>
+                <textarea id="commentText" name="comment" placeholder="Enter your comment"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+        <!-- Comment Display Section -->
+        <div class="comments" id="comments">
+            <h3>Comments</h3>
+            <!-- Comments will appear here -->
+        </div>
+
+
+ 
+
+    </main>
+
+  
+    <script src ="index.js"></script>
+</body>
+</html>

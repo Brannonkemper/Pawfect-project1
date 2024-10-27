@@ -1,0 +1,188 @@
+{
+  "dogs": [
+    {
+      "id": "1",
+      "name": "Buddy",
+      "breed": "Bulldog",
+      "age": "4 years old",
+      "description": "Bulldogs are known for their stocky build, wrinkled faces, and distinctive pushed-in noses. Despite their tough appearance, they are gentle, friendly, and affectionate, especially with families and children. They enjoy lounging but need moderate exercise to prevent obesity. Bulldogs are also known for their loyalty and protective nature, making them excellent companions."
+    },
+    {
+      "id": "2",
+      "name": "Max",
+      "breed": "Golden Retriever",
+      "age": "3 years old",
+      "description": "Golden Retrievers are friendly, intelligent, and devoted. Known for their calm demeanor, they are great family dogs and love to be active and social."
+    },
+    {
+      "id": "3",
+      "name": "Bella",
+      "breed": "German Shepherd",
+      "age": "5 years old",
+      "description": "German Shepherds are highly intelligent, courageous, and confident. They are loyal, protective, and excel at being working dogs for roles such as police work and search-and-rescue."
+    },
+    {
+      "id": "4",
+      "name": "Charlie",
+      "breed": "Poodle",
+      "age": "2 years old",
+      "description": "Poodles are known for their high intelligence and hypoallergenic coats. They are active, alert, and easily trained, making them great companions for families and individuals."
+    },
+    {
+      "id": "5",
+      "name": "Daisy",
+      "breed": "Beagle",
+      "age": "4 years old ",
+      "description": "Beagles are curious, friendly, and merry. Known for their incredible sense of smell, they are often used as scent hounds but also make excellent family pets due to their affectionate nature."
+    },
+    {
+      "id": "6",
+      "name": "Lucy",
+      "breed": "Labrador Retriever",
+      "age": "6 years old",
+      "description": "Labrador Retrievers are outgoing, even-tempered, and gentle. They are one of the most popular breeds worldwide due to their friendly nature and love for physical activities like swimming and running."
+    },
+    {
+      "id": "7",
+      "name": "Rocky",
+      "breed": "Dachshund",
+      "age": "3 years old",
+      "description": "Dachshunds are clever, lively, and courageous. With their unique long bodies and short legs, they are often called 'wiener dogs' and are known for their playful and curious personality."
+    },
+    {
+      "id": "8",
+      "name": "Molly",
+      "breed": "Siberian Husky",
+      "age": "5 years old",
+      "description": "Siberian Huskies are energetic, friendly, and outgoing. Known for their striking blue eyes and endurance, they are often used as sled dogs but are also loving companions when given enough exercise."
+    },
+    {
+      "id": "9",
+      "name": "Bailey",
+      "breed": "Boxer",
+      "age": "4 years old",
+      "description": "Boxers are energetic, playful, and loyal. They are known for their muscular build and strong bond with their families, often serving as great guardians and companions."
+    },
+    {
+      "id": "10",
+      "name": "Lola",
+      "breed": "Shih Tzu",
+      "age": "2 years old",
+      "description": "Shih Tzus are affectionate, outgoing, and friendly. Known for their luxurious coats, they are great lap dogs and love to be pampered, making them ideal companions for individuals or families."
+    },
+    {
+      "id": "11",
+      "name": "Cooper",
+      "breed": "Cocker Spaniel",
+      "age": "3 years old",
+      "description": "Cocker Spaniels are known for their gentle and affectionate nature. They are highly adaptable, loving both playtime and cuddling with their owners. Their silky coats require regular grooming."
+    },
+    {
+      "id": "12",
+      "name": "Rex",
+      "breed": "Rottweiler",
+      "age": "6 years old",
+      "description": "Rottweilers are confident, fearless, and powerful. They are highly loyal and protective of their families, making them excellent guard dogs. Despite their tough exterior, they are calm and loving with proper training."
+    },
+    {
+      "id": "13",
+      "name": "Zoey",
+      "breed": "Yorkshire Terrier",
+      "age": "2 years old",
+      "description": "Yorkshire Terriers, or Yorkies, are small but brave dogs with a big personality. They are energetic, playful, and highly affectionate, often seeking attention from their owners. Their long, silky coats require regular grooming."
+    },
+    {
+      "id": "14",
+      "name": "Leo",
+      "breed": "Great Dane",
+      "age": "5 years old",
+      "description": "Great Danes are known for their enormous size and gentle nature. Despite their imposing stature, they are affectionate, friendly, and love to lounge around. Great Danes require plenty of space to move due to their large size."
+    },
+    {
+      "id": "15",
+      "name": "Chloe",
+      "breed": "Chihuahua",
+      "age": "3 years old",
+      "description": "Chihuahuas are tiny dogs with huge personalities. They are loyal, alert, and can be quite protective of their owners. Despite their small size, they are full of energy and love being the center of attention."
+    },
+    {
+      "id": "16",
+      "name": "Buster",
+      "breed": "Border Collie",
+      "age": "4 years old",
+      "description": "Border Collies are highly intelligent and energetic dogs, often excelling in agility and herding. They require plenty of mental stimulation and physical exercise, making them a great choice for active families."
+    },
+    {
+      "id": "17",
+      "name": "Ruby",
+      "breed": "Basset Hound",
+      "age": "5 years old",
+      "description": "Basset Hounds are known for their long ears and short legs. They are laid-back, affectionate, and excellent scent hounds. Basset Hounds love to follow their noses, making them curious and determined dogs."
+    },
+    {
+      "id": "18",
+      "name": "Milo",
+      "breed": "Australian Shepherd",
+      "age": "3 years old",
+      "description": "Australian Shepherds are highly energetic and intelligent dogs, excelling in activities like herding, agility, and obedience. They require plenty of exercise and mental stimulation, making them ideal for active owners."
+    },
+    {
+      "id": "19",
+      "name": "Penny",
+      "breed": "French Bulldog",
+      "age": "2 years old",
+      "description": "French Bulldogs are small, muscular dogs with a distinct 'bat ear' look. They are playful, affectionate, and get along well with families and other pets. French Bulldogs are excellent apartment dogs due to their small size and moderate exercise needs."
+    },
+    {
+      "id": "20",
+      "name": "Finn",
+      "breed": "Irish Setter",
+      "age": "4 years old",
+      "description": "Irish Setters are known for their beautiful red coats and joyful nature. They are friendly, energetic, and love to be around people. Irish Setters thrive in active environments and require regular exercise."
+    }
+  ],
+  "comment": [
+    {
+      "id": "f1d5",
+      "text": "heyy there"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "cb59",
+      "name": "Collar",
+      "price": "1500",
+      "quantity": 1
+    },
+    {
+      "id": "22bd",
+      "name": "leash",
+      "price": "2500",
+      "quantity": 1
+    },
+    {
+      "id": "498a",
+      "name": "Dog Kennel",
+      "price": "15000",
+      "quantity": 1
+    },
+    {
+      "id": "b6a6",
+      "name": "Harness",
+      "price": "6500",
+      "quantity": 1
+    },
+    {
+      "id": "e6ba",
+      "name": "Collar",
+      "price": "1500",
+      "quantity": 1
+    },
+    {
+      "id": "9dd8",
+      "name": "Harness",
+      "price": "6500",
+      "quantity": 1
+    }
+  ]
+}
